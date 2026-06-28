@@ -10,12 +10,12 @@ First-time publish of a local git repo to GitHub as a public (or private) remote
 
 Exits with an error if origin already exists or the GitHub repo name is taken.
 
-### Usage
+#### Usage
 ```bash
 ~/your/path/to/gh-init.sh [options]
 ```
 
-### Options
+#### Options
 ```
   --name NAME           GitHub repo name (default: directory name)
   --description TEXT    Repo description (default: empty)
