@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # First-time publish of a local git repo to GitHub as a public (or private) remote.
 #
-# Usage: ./gh-init.sh [options]
+# Usage: ~/your/path/to/gh-init.sh [options]
 #
 # Exits with an error if origin already exists or the GitHub repo name is taken.
 set -euo pipefail
@@ -13,7 +13,7 @@ DESCRIPTION=""
 
 usage() {
   cat <<'EOF'
-Usage: ./gh-init.sh [options]
+Usage: ~/your/path/to/gh-init.sh [options]
 
 Create a GitHub repository and push the current branch (first-time publish only).
 
